@@ -38,7 +38,7 @@ const questions = [
         type: 'list',
         name: 'licenses',
         message: 'Please choose a license to apply to your application:',
-        choices: ['MIT License', 'Microsoft Public License', 'Academic Free License', 'Artistic License', 'Eclipse Public License'],
+        choices: ['MIT License', 'Apache license 2.0', 'Artistic license 2.0',],
     },
     {
         type: 'input',
@@ -55,12 +55,14 @@ const questions = [
 inquirer.prompt(questions)
     .then((response) => {
         const readmeContent = generateReadme(response);
-        fs.writeFile('README.md', readmeContent, (err) => err ? console.log(err): console.log('The README file has been sucessfully created!')
+        fs.writeFile('README.md', readmeContent, (err) => err ? console.error(err): console.log('The README file has been sucessfully created!')
         );
     });
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    
+    fs.writeFile(fileName, data, (err) => {
+        err ? console.error(err): console.log(`Successfully wrote to ${fileName}`)
+    });
 }
 
 // TODO: Create a function to initialize app

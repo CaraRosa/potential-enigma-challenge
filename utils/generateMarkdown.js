@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
 
   switch (license) {
     case 'MIT License':
-      badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+      badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
       break;
     case 'Apache License 2.0':
       badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]';

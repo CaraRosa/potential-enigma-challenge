@@ -75,9 +75,12 @@ function generateMarkdown(data) {
   const licenseLink = renderLicenseLink(data.licenses);
   // const licenseSection = renderLicenseSection(data.licenses);
 
+  
   const markdownContent = `
   # ${data.title}
 
+  ${licenseBadge}
+  
   ## Description
   ${data.description}
 
@@ -102,7 +105,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## License
-  ${licenseBadge} This project has a [${data.licenses}](${licenseLink}) license.
+   This project has a [${data.licenses}](${licenseLink}) license.
 
   ## Questions
 

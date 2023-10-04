@@ -8,7 +8,18 @@ The README generator has been built using the inquirer package. It challenges st
 
 ## Installation
 
-You can clone or fork this repository to contribute to the project. 
+You can clone or fork this repository to contribute to the project.
+Below is a screenshot of the questions in my terminal:
+![Terminal with Questions](./images/GeneratedREADME.png)
+
+Below are screenshots of a generated README:
+![Generated Readme 1](./images/GeneratedREADME.png)
+![Generated Readme cont](./images/GeneratedREADME(cont).png)
+
 ## Credits
 
 Referencing David Grey's (a classmate) README generator code, I realized I needed to call the renderLicenseSection in the part of my code where I create the README. This code can be found in the file generateMarkdown.js which is inside the folder utils. The code added is on line 97. I was having difficulty rendering the Apache License 2.0 and the Artistic License 2.0 badges to the README. My tutor was able to point out that the names of the license were not consistent (ie. Artistic license vs Artistic License). I changed the names of the licenses to have consistent capitalization per his reccomendation. This code can be found in index.js on line 42.
+
+## License
+
+No license is applied to this project.

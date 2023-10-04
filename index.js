@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 // file system module
 const fs = require('fs');
 // file path to include the generateMarkdown.js module
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user input
 const questions = [

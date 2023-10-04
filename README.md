@@ -1,8 +1,10 @@
 
-  # e
+  # portfolio
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  
   ## Description
-  r
+  about me
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,20 +15,20 @@
   - [Questions](#questions)
 
   ## Installation
-  e
+  download
 
   ## Usage
-  w
+  na
 
   ## Contributing
-  g
+  na
 
   ## Tests
-  s
+  none
 
   ## License
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)] This project has a [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) license.
+   This project has a [MIT License](https://opensource.org/licenses/MIT) license.
 
   ## Questions
 
-  If you have any questions about my project, please contact me at [e](https://github.com/e) or contact me via email at t.
+  If you have any questions about my project, please contact me at [CaraRosa](https://github.com/CaraRosa) or contact me via email at cara@mail.com.

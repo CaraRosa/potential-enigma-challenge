@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
 
   switch (license) {
     case 'MIT License':
-      badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+      badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
       break;
     case 'Apache License 2.0':
       badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]';
@@ -73,7 +73,7 @@ ${badgeURL ? `![License](${badgeURL})\n\n` : ''}${notice}\n\n[Read Full License]
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.licenses);
   const licenseLink = renderLicenseLink(data.licenses);
-  const licenseSection = renderLicenseSection(data.licenses);
+  // const licenseSection = renderLicenseSection(data.licenses);
 
   const markdownContent = `
   # ${data.title}

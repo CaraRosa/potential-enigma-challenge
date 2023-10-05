@@ -13,7 +13,7 @@ This is the video that demonstrates how a user can use this application by gener
 
 You can clone or fork this repository to contribute to the project.
 Below is a screenshot of the questions in my terminal:
-![Terminal with Questions](./images/GeneratedREADME.png)
+![Terminal with Questions](./images/CLIREADMEQuestions.png)
 
 Below are screenshots of a generated README:
 ![Generated Readme 1](./images/GeneratedREADME.png)

@@ -1,11 +1,11 @@
 
   # Portfolio
 
-  ![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)
+  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
   
   ## Description
 
-  new things
+  about work
 
   ## Table of Contents
 
@@ -18,24 +18,24 @@
 
   ## Installation
 
-  clone
+  clone starter code
 
   ## Usage
 
-  learn
+  learn about the work
 
   ## Contributing
 
-  free to contribute
+  all are free to contribute
 
   ## Tests
-  
+
   none
   
   ## License
 
-  This project is licensed under the Artistic License 2.0. [Read Full License](https://opensource.org/licenses/Artistic-2.0)
+  This project is licensed under the Apache License 2.0. [Read Full License](https://opensource.org/licenses/Apache-2.0)
 
   ## Questions
   
-  If you have any questions about my project, please contact me at [CaraRosa](https://github.com/CaraRosa) or contact me via email at cara@email.com.
+  If you have any questions about my project, please contact me at [CaraRosa](https://github.com/CaraRosa) or contact me via email at cara.rosa.02@gmail.com.

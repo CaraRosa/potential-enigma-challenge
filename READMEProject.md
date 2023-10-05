@@ -6,7 +6,7 @@ This project is designed for users to be able to generate a unique README file b
 
 The README generator has been built using the inquirer package. It challenges students to be able to use inquirer along with JavaScript. It also allows students to practice accessing objects and implement functions.
 
-Below is a video that demonstrates how a user can use this application by generating a README:
+This is the video that demonstrates how a user can use this application by generating a README:
 [README Generator Demo Video](https://drive.google.com/file/d/158bdVfXZO_y8QI0h40kDmt8xqFQAdrGY/view)
 
 ## Installation
